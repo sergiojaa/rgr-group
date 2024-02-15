@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logorgr{
+    width: 10rem;
+    margin-right: 20px;
+}
+ .start-nav{
+    display: flex;
+    justify-content: space-around; 
+    justify-content: center;
+    
+}
+.navebi div{
+    margin-right: 10px;
+}
+.garantia{
+    flex-grow: 1;
+}
+.navebi{
+    display: flex;
+    align-items: center;
+   } 
+.navebi div{
+     margin-left: 30px; 
+
+}
+header{
+    /* margin-top:2rem;  */
+     /* margin-left: 1rem;
+    margin-right: 1rem; */
+    background-color: blueviolet;  
+    /* height: 100px; */
+    margin-top: 10px;  
+} 
+.basket{
+    width: 70px;
+    color: white;
+}
+.navebi input {
+    height: 40px;
+    width: 20em;
+    font-size: 15px;
+}
+.navebi a{
+    color: white;
+    /* color: #00bcd4; */
+    font-size: 20px;
+    text-decoration: none;
+}
+.number{
+    font-size: 30px;
+    color: white;
+}
+.navebi a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+.bask:hover{
+    color: blue;
+    transition: transform 0.3s ease;
+    margin: 5px;
+    transform: scale(1.1);
+    color: blue;
+}
+
+/* წავიდა სექციიიაა */
+.thumb{
+    /* max-width: 300px;
+    width: 300px; */
+    display: flex;
+    overflow-x: auto;
+}
+.mainsonsection{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.thumb:hover{
+    background-color: blueviolet;
+}
+.thumb img{
+    width: 250px;
+    padding-left: 20px;
+}
+.hid{
+    text-decoration: none;
+    color: black;
+}
